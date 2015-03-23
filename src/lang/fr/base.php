@@ -16,6 +16,7 @@ return array(
 	'subject'         => 'Sujet',
 	'edit'            => 'Modifier',
 	'delete'          => 'Supprimer',
+	'replies'         => 'Réponses',
 	'reply'           => 'Répondre',
 	'new_reply'       => 'Nouvelle réponse',
 	'quick_reply'     => 'Réponse rapide',
