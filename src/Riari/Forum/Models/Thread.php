@@ -35,7 +35,7 @@ class Thread extends BaseModel {
 
 	public function getPostsPaginatedAttribute()
 	{
-		return $this->posts()->paginate(Config::get('forum::preferences.posts_per_thread'));
+		return $this->posts()->orderBy('created_at')->paginate(Config::get('forum::preferences.posts_per_thread'));
 	}
 
 	public function getPageLinksAttribute()
